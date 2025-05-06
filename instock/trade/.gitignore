@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+addeventlistener
 # Distribution / packaging
 .Python
 build/
@@ -42,7 +42,7 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
-.cache
+.cacheloadall
 nosetests.xml
 coverage.xml
 *.cover
@@ -73,7 +73,7 @@ docs/_build/
 
 # PyBuilder
 .pybuilder/
-target/
+target/Environments
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -131,6 +131,7 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+cacheloadall
 
 # Rope project settings
 .ropeproject
@@ -142,6 +143,8 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+lock
+log
 
 # Pyre type checker
 .pyre/

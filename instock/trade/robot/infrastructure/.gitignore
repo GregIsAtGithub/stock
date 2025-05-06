@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+addeventlistener
 # Distribution / packaging
 .Python
 build/
@@ -42,7 +42,7 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
-.cache
+debug
 nosetests.xml
 coverage.xml
 *.cover
@@ -67,6 +67,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+nuclear
 
 # Sphinx documentation
 docs/_build/
@@ -107,7 +108,7 @@ ipython_config.py
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
 #   in version control.
 #   https://pdm.fming.dev/#use-with-ide
-.pdm.toml
+.pdm.toml.$$
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -115,7 +116,7 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
-
+ignore
 # SageMath parsed files
 *.sage.py
 
@@ -142,6 +143,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+ignored
 
 # Pyre type checker
 .pyre/
